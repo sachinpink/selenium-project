@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40140" started-at="2018-05-22T17:21:33Z" finished-at="2018-05-22T17:22:13Z">
+  <suite name="Suite" duration-ms="131450" started-at="2018-10-11T14:52:40Z" finished-at="2018-10-11T14:54:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40140" started-at="2018-05-22T17:21:33Z" finished-at="2018-05-22T17:22:13Z">
-      <class name="com.test.testcases.RegstrationPageTest">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.test.testcases.RegstrationPageTest@4667ae56]" name="launch" is-config="true" duration-ms="27535" started-at="2018-05-22T22:51:33Z" finished-at="2018-05-22T22:52:01Z">
+    <test name="Test" duration-ms="131450" started-at="2018-10-11T14:52:40Z" finished-at="2018-10-11T14:54:52Z">
+      <class name="com.test.testcases.LoginPageTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.test.testcases.LoginPageTest@4667ae56]" name="launch" is-config="true" duration-ms="62825" started-at="2018-10-11T20:22:41Z" finished-at="2018-10-11T20:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="registration_With_InvalidData()[pri:0, instance:com.test.testcases.RegstrationPageTest@4667ae56]" name="registration_With_InvalidData" duration-ms="12565" started-at="2018-05-22T22:52:01Z" finished-at="2018-05-22T22:52:13Z">
+        <test-method status="PASS" signature="login_Data_From_Excel(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@4667ae56]" name="login_Data_From_Excel" duration-ms="13168" started-at="2018-10-11T20:23:44Z" data-provider="loginData" finished-at="2018-10-11T20:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachinzagade59@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration_With_InvalidData -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:com.test.testcases.RegstrationPageTest@4667ae56]" name="terminate" is-config="true" duration-ms="17" started-at="2018-05-22T22:52:13Z" finished-at="2018-05-22T22:52:13Z">
+        </test-method> <!-- login_Data_From_Excel -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.test.testcases.LoginPageTest@4667ae56]" name="close" is-config="true" duration-ms="236" started-at="2018-10-11T20:23:57Z" finished-at="2018-10-11T20:23:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- terminate -->
-      </class> <!-- com.test.testcases.RegstrationPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.test.testcases.LoginPageTest@4667ae56]" name="launch" is-config="true" duration-ms="43600" started-at="2018-10-11T20:23:58Z" finished-at="2018-10-11T20:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login_Data_From_Excel(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@4667ae56]" name="login_Data_From_Excel" duration-ms="10480" started-at="2018-10-11T20:24:41Z" data-provider="loginData" finished-at="2018-10-11T20:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pink@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pink]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Data_From_Excel -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.test.testcases.LoginPageTest@4667ae56]" name="close" is-config="true" duration-ms="217" started-at="2018-10-11T20:24:52Z" finished-at="2018-10-11T20:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.test.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
