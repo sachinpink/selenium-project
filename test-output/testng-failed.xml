@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.test.testcases.LoginPageTest">
+      <class name="com.test.testcases.RegstrationPageTest">
         <methods>
-          <include name="login_Data_From_Excel"/>
+          <include name="terminate"/>
           <include name="launch"/>
+          <include name="registration_with_Excel_Data" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.test.testcases.LoginPageTest -->
+      </class> <!-- com.test.testcases.RegstrationPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

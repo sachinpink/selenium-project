@@ -7,7 +7,7 @@
         <methods>
           <include name="terminate"/>
           <include name="launch"/>
-          <include name="registration_with_Excel_Data" invocation-numbers="0"/>
+          <include name="registration_with_Excel_Data" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.test.testcases.RegstrationPageTest -->
     </classes>
