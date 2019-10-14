@@ -5,7 +5,8 @@
     <classes>
       <class name="com.test.testcases.LoginPageTest">
         <methods>
-          <include name="login_Data_From_Excel"/>
+          <include name="login_Data_From_Excel" invocation-numbers="0 1"/>
+          <include name="close"/>
           <include name="launch"/>
         </methods>
       </class> <!-- com.test.testcases.LoginPageTest -->
